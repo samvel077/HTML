@@ -1,0 +1,180 @@
+:root {
+   --main-color: #f44336;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+main {
+   width: 100%;
+}
+
+.header-row {
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   background-color: var(--main-color);
+   box-shadow: 0 2px 5px black;
+   position: fixed;
+   top: 0;
+}
+
+.header-row > a {
+   padding: 20px 40px;
+   font-size: 30px;
+   text-transform: capitalize;
+   color: white;
+}
+
+.header-row > a:first-child {
+   background-color: white;
+   color: #222;
+}
+
+.header-row > a:first-child:hover {
+   background-color: lightgray;
+}
+
+.header-row > a:first-child ~ a:hover {
+   background-color: white;
+   color: #222;
+}
+
+#home {
+   width: 100%;
+   padding: 200px 0;
+   background-color: var(--main-color);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#home > div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+}
+
+#home h1 {
+   font-size: 100px;
+   font-weight: 100;
+}
+
+#home p {
+   font-size: 40px;
+   margin: 40px 0;
+}
+
+#home button {
+   outline: none;
+   background-color: black;
+   border: none;
+   color: wheat;
+   font-size: 25px;
+   padding: 20px 30px;
+   text-transform: capitalize;
+}
+
+#lorem1, #lorem2 {
+   width: 100%;
+   padding: 100px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#lorem1 > div:first-child, #lorem2 > div:first-child {
+   width: 800px;
+}
+
+#lorem1 > div:last-child, #lorem2 > div:last-child {
+   width: 300px;
+}
+
+#lorem1 p, #lorem2 p {
+   font-size: 25px;
+}
+
+#lorem1 p:last-child, #lorem2 p:last-child {
+   color: gray;
+   margin-top: 40px;
+}
+
+#lorem1 h2, #lorem2 h2 {
+   font-size: 50px;
+   margin-bottom: 40px;
+}
+
+#lorem1 i, #lorem2 i {
+   color: var(--main-color);
+   font-size: 200px;
+   margin-left: 50px;
+}
+
+#lorem2 {
+   background-color: rgba(211, 211, 211, 0.524);
+   flex-direction: row-reverse;
+}
+
+#lorem2 i {
+   margin-left: unset;
+   margin-right: 30px;
+}
+
+#text {
+   background-color: rgb(123, 123, 123);
+}
+
+#text > div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 180px;
+   font-size: 60px;
+   color: white;
+}
+
+.footer-row {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 100px 0;
+   flex-direction: column;
+}
+
+.footer-row ul {
+   list-style-type: none;
+   display: flex;
+}
+
+.footer-row li {
+   padding: 100px 3px;
+   font-size: 55px;
+   color: gray;
+}
+
+.footer-row li:hover {
+   color: lightgray;
+}
+
+.footer-row p {
+   font-size: 30px;
+   color: gray;
+   margin-block-end: 80px;
+}
+
+@media (max-width ) {
+
+}

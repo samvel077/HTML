@@ -1,0 +1,56 @@
+* { /* veraberum e bolor elementnerin*/
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d {
+    width: 200px;
+    height: 200px;
+}
+
+.div1 {
+    border: 50px solid red;
+    margin: 50px;
+    /* padding-left: ;
+    padding-top: ;
+    padding-bottom: ;
+    padding-right: ; */
+    padding: 50px;
+    /* box-sizing: content-box; */
+}
+
+/* .div2 {
+ outline: 100px solid blue;
+} */
+
+#sec1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700304836-300x300.jpg);
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 100% 100%; */
+    /* background-size: contain; */
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: 0.5; tapancikutyun@ */
+}
+
+/* #sec1 img { */
+    /* filter: blur(3px); */
+    /* filter: brightness(150%); */
+    /* filter: grayscale(50%); */
+/* } */
+
+#sec1 p {
+    color: red;
+    font-size: 30px;
+}
+
+#sec1 a {
+    text-decoration: overline underline red;
+}
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stayl.css">
+    <link rel="icon"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA3lBMVEX////VAR2qARr/ACHTAADzxsqlAADpxsrrAR/etLfutLf/AADgurz/ur3WAR2nARrVABj/ABnUABD5ACD/AA/UABPIARy+ARu5ARvLARz/+vv/ABT/6+31ACDjAB7bAR320tWwARrlgYjdR1Tyxsr/wcb/RlT/nqT/zND/3uH/dn//qa//Ul/99PXaNkPgY2zplJrhb3X3hYzkAAD/GTD/Y27/gov/M0T/kZj/tLnspqvXFCnZKjrdUFv54uTsp6vkeIDVg4ruPk3/JDjqMkHmho3qm6DZLDvhZm/CAAAFGl+BAAAHVUlEQVR4nNXce1caVxQF8Hvr0BBIpsNU2gRNQ8Q8NAEx5ukD7UNLv/8XKoIozOPes+cR9pn/g+u3Nune64ypMYKn8fEp+HzvST535Zk8wZ/Hu+APyX/22/DzHvwRj38u8DyqTniyBT6dT7DwJ/ipUNgIUOFW+7UyYRMO8Y0yYYiH2NcltC9Q4c5nZcKXeIjQf8s3L8RD3P6iTIiHuD3UJbS/osL2W2XCP+AQt5QJC4T4XZkQb/2vyoQWFW613ykT4iF+UCYsMN0OdAkLtP6hMmGN041EiBfG9jdlQrz1O8qEBVpfeLChEcIhSg82NMICrS872PAI6zrY8AjrOtjwCPEQZQcbImGBECWtTySs6WDDJKznYMMkrOdgQyWs5WBDJazlYMMlxKeb/2DDJazjYEMmrOFgQyas4WBDJqzhYMMmLHCw8bQ+m7BAiJ6DDZ0QD7Hj/g0bOmHlBxs+YdUHGz5h1QcbQmHFBxtCYYEQ+8qE1R5sGIXVHmwYhdUebCiFlR5sKIV4iI6DDacQDzH/YMMprPJgQyqs8GBDKqzwYMMqrO5gwyosEGLOwYZWiE+3nIMNrRCfbifZrU8rxFv/ZKxMCLd+s6tMCLd+MzhVJkRbvxmdKROiITZt0FImBENs2u5AmRBs/aa1QV+ZEGv9mTA+UibEWn8mtEH6YEMtxEK8FcZXyoRQ698KwyA13biF0HS7FdogNd3IhUiIc2GUmm7kQqT158J067MLgdZfCKNzZUIgxIXQBg1lQnlh3AmT041eKJ9ud0IbrB9s+IXiEJfCeKpMKJ5uS2G4Pt34heLWXwptsKdMKG39e2EYrP6GjQKhNMR7oQ1ulAmFIT4II6tMKGz9B+HadFMhlE23FWE0UiaUtf6KcPVgo0Moav1VYfdCmVAU4qrQBhNlQkmIa8L4WJlQMt3WhA8HGyVCSeuvCR8ONlqEgtZfF4aBMqEgxHWhDS6VCf2tnxAu37WpEfqnW0K4PNjoEXpDTAq7I2VCb+snhXfTTZHQ1/op4eJdmyKhL8SUcPGuTZPQE2JaOH/Xpknoaf20cD7dNAk9rZ8WzqebKqE7xAxhFCsTuls/Q3h7sNEldLZ+ljA6VyZ0hpgltMH+E11CV4iZwu7FI11CV+tnCm3wpzKho/WzheHzX3QJHQebbKENX+kSOlo/T/gbHuJGhfmtnyO0obIM80PMFf4Oh7hZYW6IeUJrlWWY2/q5wvCZMmFe6+cLLfo13bAwr/Xzv6VwiBsWRn91UCHa+hsWBi1UCLf+poWNt9uoEGz9TQtbwzYoREPcuNAcZoXoFGIhbl44yQrRJQSn2+aF5sMOKoSmG4HwXUaITqGFWp9AaL6mG8MthFqfQfg0HaJHiITIIDSfUiF6vqVIYVAI36dC9AmB6UYh7KUq0SNEQqQQmo9Jolcob30O4W7ya+oTAq3PITSHO6hQ3PokwoM2KJQfbEiE5k0HFIpDZBEmppsgQ2nrswgT000glE43GuH3NioUtj6N0KAZSlufR/i2jQplrc8jHG6DQmGIPELzZRsVikIkEq5ON5FQNt2IhObzDiqUtD6TsN8GhaLpxiRcmW5CoaT1qYSv22iGgulGJTR/d0ChIEQu4f3BRiz0TzcuoUEzFLQ+mfBbGxV6W59MOESF/hDJhMt3bYDQFyKb8O5dm1zobX024d27NkDom250wsV0QzL0tD6dcDHdEKGn9fmE83dtkNDd+nxCs9UBv6XuwiAU3k43TOgMkVDYQzN0h0govH3XBgpdrc8onE03TOg82DAKzeEOKnS0PqXwoA0KXdONUmg+vAA/xxEip/DdCfxJyoTmnwj8oPzpRipswf/CKLf1SYXmDA4xr/VZhTdwiHmtzyrsBSFKzAmRVWiuqwqRVriLh6gsQzONUWF26/MKD/CPUyY0F13ww7Jbn1i4X03rEwvNeSXTjVlYzXRjFhpbxXSjFlYy3aiFBaabsgzNXgUhcgvx6ZY+2HALzVH56UYurGC6kQvNoPR0Yxfi/0uYZOuzCwtMt1fKhJdlQ6QXmqhkiPzCccnW5xcOS043fqG5Ktf6CoSTctNNgbDkdNMg7JeabhqEZlRmuqkQlppuKoSl3rXpEOLT7aH1dQhNiXdtSoQlppsSYYnppkRYYrppEU4Kt74WobmAQ3ymTAhPt2XrqxGaUcF3bXqERd+16REWnW6KhKfFWl+RsOCvSSkSFvw1KU3CYu/aNAnNcZHppkpYaLptRhiGUdSN4yDAhGYw+xNx3I2iUPh9nbX+jxSGM1WweOLwfHC0d31zOfF/7sozuRxfXx0Nzu3953Qjp3XW+j9A+AA7v5hen7Ya/cluz/9x7mc4mTRap9fTi39jJzV8VacwjBY//WxwNb7cPxj6P6LQ0zvYb42vBmfzHxYnoOHzWoTRHW00vW41JnXJkk9vt98aT0eLSO/fyYWVCqN4IQtH03Gr/6NkyWfYb90cj+xCGkf/VSiMBsd749lfs2Hpv2VVPMN+ozXeOx5EIuH/UVM4k1SxLqEAAAAASUVORK5CYII=">
+    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+    <title>Netflix Armenia</title>
+</head>
+
+<body>
+    <section id="home">
+        <div class="header">
+            <div class="header-div">
+                <img src="https://www.telefilm-central.org/wp-content/uploads/2018/07/Netflix-Logo.png" alt="">
+            </div>
+            <div class="button1"><button>Sing in</button></div>
+        </div>
+        <div class="text">
+            <div class="text-div">
+                <h1>Unlimited movies, TV shows, and more</h1>
+                <h2>watch anywhere. Cancel anytime</h2>
+                <h3>Ready to watch? Enter your email to creat or restart your membership</h3>
+                <div class="text-div2">
+                    <div class="mail">
+                        <input type="email" placeholder="Email addres" required>
+                    </div>
+                    <div class="button2"><button>TRY 30 DAYS FREE ></button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="line"></div>
+
+    <section id="sec2">
+        <div class="sec2-div1">
+            <h1>Enjoy on your TV.</h1>
+            <p>Watch on Smart TVs, Playstation, Xbox,</p>
+            <p>Chromecast, Apple TV, Blue-ray players, and more.</p>
+        </div>
+        <div class="sec2-div2">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+        </div>
+    </section>
+    <div class="line"></div>
+
+    <section id="sec3">
+        <div class="sec3-div1">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+        </div>
+        <div class="sec3-div2">
+            <h1>Download your shows to watch offline</h1>
+            <p>save your favorites easily and always have</p>
+            <p>something to watch.</p>
+        </div>
+    </section>
+    <div class="line"></div>
+
+    <section id="sec4">
+        <div class="sec4-div1">
+            <h1>Watch everywhere</h1>
+            <p>Stream unlimited movies and TV shows on</p>
+            <p>your phone, tablet, laptop, and TV without paying more.</p>
+        </div>
+        <div class="sec4-div2">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="">
+        </div>
+    </section>
+    <div class="line"></div>
+
+    <section id="sec5">
+        <div class="sec5-div1">
+            <h1>Frequently Askes Question</h1>
+        </div>
+        <div class="sec5-dives sec5-div2">
+            <span>What is Netflix</span>
+            <span>+</span>
+        </div>
+        <div class="sec5-dives sec5-div3">
+            <span>How much does Netflix cost?</span>
+            <span>+</span>
+        </div>
+        <div class="sec5-dives sec5-div4">
+            <span>Where can I watch?</span>
+            <span>+</span>
+        </div>
+        <div class="sec5-dives sec5-div5">
+            <span>How do I cancel</span>
+            <span>+</span>
+        </div>
+        <div class="sec5-dives sec5-div6">
+            <span>What can I watch on Netflix?</span>
+            <span>+</span>
+        </div>
+        <div class="sec5-dives sec5-div7">
+            <span>How does the free trial work?</span>
+            <span>+</span>
+        </div>
+        <div class="text">
+            <div class="text-div">
+                <h3>Ready to watch? Enter your email to creat or restart your membership</h3>
+                <div class="text-div2">
+                    <div class="mail">
+                        <input type="email" placeholder="Email addres" required>
+                    </div>
+                    <div class="button2"><button>TRY 30 DAYS FREE ></button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="line"></div>
+
+    <footer>
+        <div class="div-ul1">
+            <ul>
+                <a href="#">Question? Contact us.</a>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Investor Relaitions</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+            </ul>
+            <p>Netflix Armenia</p>
+        </div>
+        <div class="div-ul2">
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+        </div>
+        <div class="div-ul3">
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Ways to Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Netflix Originals</a></li>
+            </ul>
+        </div>
+        <div class="div-ul4">
+            <ul>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="data.json" method="POST" autocomplete="">
+        <label for="firstName">First name</label>
+        <br><br>
+        <input name="user_name" required type="text" id="firstName" placeholder="write your name" maxlength="5">
+        <br><br>
+        <label for="lastName">Last name</label>
+        <br><br>
+        <input name="user_last_name" required type="text" id="lastName" placeholder="write your lastname">
+        <br><br>
+        <label for="gsm">
+            <p>Phone number</p>
+        </label>
+        <input name="user_gsm" required type="number" id="gsm">
+        <label for="email">
+            <p>Email</p>
+         </label>
+        <input required type="email"  id="email">
+        <label for="pass">
+            <p>Password</p>
+        </label>
+        <input required type="password" id="pass">
+        <br><br>
+        <input type="range" min="0" max="5">
+        <br><br>
+        <input type="color">
+        <br><br>
+        <input type="date">
+        <br><br>
+        <p>loliki sous, sxtori sous</p>
+        <input type="checkbox" name="sous" value="loliki_sous">
+        <input type="checkbox" name="sous" value="sxtori_sous">
+        <br><br>
+        <input type="radio" name="xmor" value="classic">
+        <input type="radio" name="xmor" value="barak">
+        <br><br>
+       <label for="cars">
+            <p>select your car</p>
+       </label>
+        <select name="cars" id="cars">
+            <option hidden>select your car</option>
+            <optgroup  label="Audio">
+                <option value="audi_a1">audi a1</option>
+                <option value="audi_a4">audi a4</option>
+                <option value="audi_a5">audi a5</option>
+            </optgroup>
+            <optgroup label="BMW">
+                 <option value="bmw_320M">bmw 320 m</option>
+                 <option value="bmw7">bmw 7 series</option>
+                 <option disabled value="bmw_x6">bmw x6</option>
+             </optgroup>
+        </select>
+        <br><br>
+        <input type="submit">
+
+
+    </form>
+
+</body>
+</html>

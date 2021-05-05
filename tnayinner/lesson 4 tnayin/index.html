@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.kindpng.com/picc/m/237-2370243_clip-art-registration-icon-user-edit-icon-png.png">
+    <title>Регистрация</title>
+    <style>
+      body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIsTPi35ofPkPQzfyyP-ROYzO48UqThRI4JA&usqp=CAU);
+        background-size: cover;
+      }
+     * {box-sizing: border-box;}
+     .transparent{
+         position: relative;
+         max-width: 500px;
+         padding: 60px 50px;
+         margin: 50px auto 0;
+         background-color:white;
+          }
+          .transparent:before{
+              content:"";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: linear-gradient(to right bottom,rgba(43, 44, 78, .5),rgba(104, 22, 96, .5));
+          }
+          .form-inner {position: relative;}
+          .form-inner h3 {
+              position:relative;
+              margin-top: 0;
+              left: 20px;
+              color:black;
+              font-family: 'Roboto', sans-serif;
+              font-weight: 300;
+              font-size: 26px;
+              font-style:normal;
+            text-transform:uppercase;
+          }
+          .form-inner h3:after {
+             content: "";
+             position:absolute;
+             left: 0;
+             bottom: -6px;
+             height: 2px;
+             width: 100px;
+             background: #1762EE;
+        }
+        .form-inner label {
+            display: block;
+            padding-left: 15px;
+            font-family: 'Roboto', sans-serif;
+            color: rgba(255, 255, 255, 0.693);
+            text-transform: uppercase;
+            font-size: 15px;
+            
+        }
+        .form-inner input {
+        display: block;
+        width: 100%;
+        padding: 0 20px;
+        margin: 5px 0 0px;
+        border-width: 0;
+        line-height: 40px;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+        background: rgba(255,255,255,.2);
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+       
+        }
+        .form-inner input[type="checkbox"] {
+        position: absolute;
+        opacity: 0;
+        }
+        #custom-checkbox + label {
+        position: relative;
+        margin: 20px 0px;
+        text-transform:none;
+        cursor: pointer;
+        }
+        #custom-checkbox + label:before {
+        content: "";
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        margin-right: 10px;
+        vertical-align: text-top;
+        background: white;      
+        }
+        #custom-checkbox:checked + label:before {background: #5c92f5;}
+        #custom-checkbox:checked + label:after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        left: 18px;
+        top: 7px;
+        background: white;
+        box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+        transform: rotate(45deg);
+        }
+        .form-inner input[type="submit"] {background: #5c92f5;}
+        .form-inner input[type="button"] {background: #5c92f5;}
+        </style>
+</head>
+ <body>
+    <form action="" class="transparent" autocomplete="off">
+        <div class="form-inner">
+            <h3>Регистрация</h3>
+            <label for="username">Имя</label>
+            <input type="text" id="username" required placeholder="Имя пользователя"><br><br>
+            <label for="userlastname">Фамилия</label>
+            <input type="text" id="userlastname" required placeholder="Фамилия пользователя"><br><br>
+            <label for="useremail">Email</label>
+            <input type="email" id="useremail" required placeholder="Пишите свой email"><br><br>
+            <label for="usergsm">Номер телефона</label>
+            <input type="tel" id="usergsm" placeholder="Номер телефона(не обезательно)"><br><br>
+            <label for="userpass">Придумайте пароль</label>
+            <input type="password" id="userpass" required placeholder="Пароль"><br><br><br>
+            <input type="checkbox" id="custom-checkbox">
+            <label for="custom-checkbox">Запомнить меня</label><br><br>
+            <input type="submit" value="Зарегистрироваться">
+            <input type="submit" value="Войти">
+        </div>
+    </form>     
+        
+    
+ </body>
+</html>

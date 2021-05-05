@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(47, 86, 225);
+}
+header {
+    background-color: white;
+    margin-top: -8px;
+    margin-left: -10px;
+    width: 1538px; 
+    height: 70px; 
+}
+
+header img {
+    width: 45px;
+    height: 40px;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.name1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    color:  gray;
+}
+
+.name2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(47, 86, 225) ;
+
+}
+
+header a{
+    margin-right: 15px;
+    color: rgb(47, 86, 225);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.links {
+    padding-left: 80%;
+    margin-top: -20px;
+}
+
+ .page h1{
+    margin-left: 40%;
+    margin-top: 15%;
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    
+ }
+
+ .page p{
+   color: yellowgreen;
+   margin-left: 35%;
+   margin-top: -35px;
+ }
+
+ .submit1{
+    margin-left: 44%;
+    margin-top: 70px;
+    padding: 10px 15px;
+    
+ }
+
+ .submit2 {
+     margin-left: 2%;
+     padding: 10px 15px;
+     background-color: rgb(136, 159, 240);
+
+}
+
+.text p {
+    margin-left: 500px;
+    margin-top: 60px;
+    color: wheat; 
+    
+    
+}
+
+  

@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: rgb(252, 227, 231);
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.667);
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    position: fixed;
+}
+
+header .header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.789);
+    padding: 10px 150px;
+}
+
+.header a:hover {
+    background-color: rgba(128, 128, 128, 0.789);
+}
+
+.header a:last-child:hover {
+    background-color: black;
+    color: white;
+}
+
+#home {
+    background-image: url(https://ak.picdn.net/shutterstock/videos/18064348/thumb/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    filter: grayscale(0.7);
+}
+
+.home_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.tittle1 {
+    margin-top: 320px;
+    font-size: 70px;
+}
+
+.tittle2 {
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.tittle3 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.jj_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.jj_div h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.jj_div p {
+    width: 900px;
+    margin-top: 60px;
+}
+
+.jj_div img {
+    filter: grayscale(0.8);
+}
+
+.jj_div input {
+    width: 180px;
+    height: 60px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 70px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.jj_div input:hover {
+    background-color: rgba(128, 128, 128, 0.496);
+    color: black;
+}
+
+#wedding .wed_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.wed_div h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.wed_div img { 
+    width: 1000px;
+    border-radius: 10px;
+    filter: grayscale(0.7);
+}
+
+.wed_div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-right: 450px;
+}
+
+.wed_div3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 450px;
+    margin-top: -104px;
+}
+
+.rsvp_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+    font-size: 25px;
+    background-color: rgba(255, 192, 203, 0.354);
+    height: 350px;
+}
+
+.rsvp_div h1 {
+    margin-top: 70px;
+}
+
+.rsvp_div p {
+    margin-top: 25px;
+    color: rgba(0, 0, 0, 0.666);
+}
+
+.rsvp_div button{
+    margin-top: 25px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(252, 116, 138);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 60px;
+}
+
+.rsvp_div button:hover{
+    background-color: rgba(128, 128, 128, 0.496);
+    color: black;
+}
+
+.end {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+#text1 {
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4E1BAQHU77Da1HGgtA/company-background_10000/0?e=2159024400&v=beta&t=us_7A5cSfy5Cde3_dv_QWLRRL2DFxAPmBwT68hzinCI);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.8);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.tittle4 {
+    margin-top: 300px;
+    margin-left: 5px;
+    font-size: 70px;
+}
+
+.tittle5 {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .jj_div p {
+        width: 300px;
+    }
+
+    .text h1 {
+        font-size: 60px;
+    }
+
+    .wed_div2 {
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .wed_div3 {
+        margin: 0;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .home_div h1 {
+        font-size: 60px;
+    }
+
+    .text h1 {
+        font-size: 45px;
+    }
+
+    .rsvp_div h1 {
+        font-size: 25px;
+    }
+
+    .rsvp_div p {
+        font-size: 15px;
+    }
+}

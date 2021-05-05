@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+ root 
+
+ :root {
+    --my-color: rgba(192, 13, 13, 0.884);
+    --sirun-stver: 2px 2px 6px black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-header {
+    width: 100%;
+    height: 50px;
+    background-color: var(--my-color);
+    box-shadow: var(--sirun-stver);
+}
+
+.my-sec button {
+    background-color: var(--my-color);
+}
+
+.my-sec div {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    box-shadow: var(--sirun-stver);
+}  */
+
+/* nth */
+
+/* .my-div > a:nth-child(5) {
+    color: red;
+} */
+
+/* .my-div a:nth-of-type(5) {
+    color: red;
+} */
+
+/* .my-div > *:nth-child(5) {
+    color: red;
+} */
+
+/* pseudo element */
+
+/* .pseudo {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: orange;
+}
+
+.pseudo::before {
+    content: 'React ';
+    color: rgb(0, 88, 204);
+    font-size: 30px;
+    font-style: italic;
+}
+
+.pseudo::after {
+    content: ' Developer';
+    color: red;
+    font-size: 30px;
+}
+
+.pseudo-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 350px;
+	height: 300px;
+    background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2016/11/10/1038292/cdc3a045ed94de70d8df460fb327cea8-700.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.pseudo-div::after {
+	content: "Hello";
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0px;
+	transition-duration: 1s;
+}
+
+.pseudo-div:hover::after {
+	font-size: 30px;
+	background-color: #2284ec5b;
+	width: 100%;
+	height: 100%;
+} */
+
+/* atribute */
+
+/* .atr > [data-id="p3"] {
+    color: red;
+} */
+
+/* animacia */
+
+/* body {
+    background-color: #333;
+    margin: 50px;
+}
+
+.anm-div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    animation-name: myAnm;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes myAnm {
+
+    0% {
+        background-color: red;
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        background-color: green;
+        top: 0;
+        left: 200px;
+        width: 100px;
+        height: 100px;
+    }
+
+    50% {
+        background-color: lightcoral;
+        top: 200px;
+        left: 200px;
+    }
+
+    75% {
+        background-color: lawngreen;
+        top: 200px;
+        left: 0;
+        width: 300px;
+        height: 300px;
+    }
+
+    100% {
+        background-color: magenta;
+        top: 0;
+        left: 0;
+    }
+
+} */
+
+.d1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  /* overflow: hidden; */
+  overflow: auto;
+}
+
+.d2 {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  background-color: magenta;
+  border-radius: 50%;
+}

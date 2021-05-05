@@ -1,0 +1,51 @@
+ul#ul1{
+    list-style: none;
+}
+
+#ul1 .li1 {
+    color: red;
+}
+
+/*combinators*/
+
+p + a { /* + */
+    color: pink;
+}
+
+p ~ a { /* ~ */
+    color: blue;
+}
+
+#div1 > ul > li { /* > */
+    color: slateblue;
+}
+
+#div1 ul > li { /*space*/
+    color: green;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#sec1 {
+    width: 100%;
+    min-width: 600px;
+    max-width: 1300px;
+    height: 100vh;
+    /* min-height: 400px; 
+    max-height: 600px;
+    background-color: yellowgreen;  */
+}
+
+#sec1 .d1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    
+}

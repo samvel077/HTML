@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+}
+
+.header {
+    background-color: rgb(253, 245, 3);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 5px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+
+.header-text {
+    font-size: 54.8px;
+}
+
+h1 {
+    animation: wobble;
+    animation-duration: 2.5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    margin-top: 400px;
+}
+
+

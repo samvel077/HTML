@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <table border="" class="table1"> 
+         <thead>
+             <th colspan="4"> Строематерялы</th>
+         </thead>
+         <tbody>
+             <td><b>Тип</b></td>
+             <td><b>Цвет</b></td>
+             <td><b>Форма</b></td>
+             <td><b>Количество</b></td>
+         </tbody>
+            <tr>
+                <td>
+                    <label for="Строематерялы_деревьо">Деревьянный блок</label>
+                    <input type="radio" id="Строематерялы_деревьо" name="Строематерял">
+                </td>
+                <td rowspan="3">
+                    <label for="Строематерял">Красный</label>
+                    <input type="checkbox" id="Строематерялы" name="Цвет"><br><br><br>
+                    <label for="Строематерял">Зеленый</label>
+                    <input type="checkbox" id="Строематерялы" name="Цвет"><br><br><br>
+                    <label for="Строематерял">Синий</label>
+                    <input type="checkbox" id="Строематерялы" name="Цвет">
+                </td>
+                <td rowspan="3">
+
+                    <select name="Форма" id="Форма">
+                        <option value="Круглый">Круглый</option>
+                        <option value="Триугольный">Триугольный</option>
+                        <option value="Квадратный">Квадратный</option>
+                        <option value="Плоскый">Плоскый</option>
+                    </select>
+                
+                </td>
+                <td rowspan="3">
+                    <label for="Количество10">10</label>
+                    <input type="radio" id="Количество10" name="Количество"><br><br><br>
+                    <label for="Количество30">30</label>
+                    <input type="radio" id="Количество30" name="Количество"><br><br><br>
+                    <label for="Количество50">50</label>
+                    <input type="radio" id="Количество50" name="Количество">
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <label for="Строематерялы_метал">Металический блок</label>
+                    <input type="radio" id="Строематерялы_метал" name="Строематерял">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Строематерялы_камин">Каминный блок</label>
+                    <input type="radio" id="Строематерялы_камин" name="Строематерял">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <h4>Дополнительно</h4>
+                    <textarea name="" id="" cols="30" rows="4"></textarea><br>
+                    <input type="submit" value="отправить" class="submit">
+                </td>
+            </tr>
+    </table>
+
+
+     <br><br><br><br>
+
+    <table border="">
+        <tr>
+            <th colspan="2">Pizza Bulls</th>
+        </tr>
+         <tr>
+            <th>Name</th>
+            <td><input type="text" id="name" autocomplete="off"></td>
+        </tr>
+        <tr>
+            <th>Pizza Topping</th>
+            <td>
+                <input type="radio" id="topping1" name="topping">
+                <label for="topping1">Supreme</label><br>
+                <input type="radio" id="topping2" name="topping">
+                <label for="topping2">Hawaiian</label><br>
+                <input type="radio" id="topping3" name="topping">
+                <label for="topping3">Vegetarian</label><br>
+            </td>
+        </tr>
+        <tr>
+            <th>Pizza Sauce</th>
+            <td>
+                <select name="sauce" id="sauce">
+                    <option value="tomato_sauce">Tomato</option>
+                    <option value="barbecue_sauce">Barbecue</option>
+                    <option value="mayonnaise_sauce">Mayonnaise</option>
+                    <option value="mustard_sauce">Mustard</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Optional Extars</th>
+            <td>
+                <input type="checkbox" name="extras" id="extras1">
+                <label for="extras1">Extra Chesse</label>
+                <input type="checkbox" name="extras" id="extras2">
+                <label for="extras2">Gluten Free Base</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"> 
+                <label for="dilevry_instructions"><b>Dilevry Instructions</b></label><br>
+                <textarea name="dilevry_instructions" id="dilevry_instructions" cols="20" rows="3"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Send My Order"></td>
+        </tr>
+    </table>
+
+</body>
+</html>
